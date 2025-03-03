@@ -1,0 +1,42 @@
+{
+    "columns": [
+      {
+        "accessorKey": "avatar",
+        "header": "Name",
+        "type": "avatar",
+        "sortable": false
+      },
+      {
+        "accessorKey": "status",
+        "header": "Status",
+        "type": "badge",
+        "sortable": false
+      },
+      {
+        "accessorKey": "role",
+        "header": "Role",
+        "type": "text",
+        "sortable": false,
+        "filterable": "multi-select"
+      },
+      {
+        "accessorKey": "email",
+        "header": "Email",
+        "type": "text",
+        "sortable": false
+      },
+      {
+        "accessorKey": "teams",
+        "header": "Teams",
+        "type": "chips",
+        "sortable": false
+      },
+      {
+        "accessorKey": "age",
+        "header": "Age",
+        "type": "number",
+        "sortable": true
+      }
+    ]
+  }
+  

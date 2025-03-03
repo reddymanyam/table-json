@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "avatar": "https://i.pravatar.cc/40?img=1",
+      "name": "John Doe",
+      "status": "Working",
+      "role": "Product Manager",
+      "email": "johndoe@company.com",
+      "teams": ["Design", "Product", "Development"],
+      "age": 32
+    },
+    {
+      "id": 2,
+      "avatar": "https://i.pravatar.cc/40?img=2",
+      "name": "Jane Smith",
+      "status": "Working",
+      "role": "Software Engineer",
+      "email": "janesmith@company.com",
+      "teams": ["Engineering", "Development"],
+      "age": 28
+    }
+  ]
+  
