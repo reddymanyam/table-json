@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { MaterialReactTable } from "material-react-table"; 
+import { MaterialReactTable } from "material-react-table";
 import { Box, Chip, Avatar, TextField } from "@mui/material";
 import { debounce } from "lodash";
 import schema from "../data/tableSchema.json";
@@ -10,10 +10,6 @@ const DataTable = () => {
   const [selectedRoles, setSelectedRoles] = useState([]);
   const [nameFilter, setNameFilter] = useState("");
 
-  // Debounced Name Filter
-  const handleNameFilterChange = debounce((value) => {
-    setNameFilter(value.toLowerCase());
-  }, 300);
 
   const columns = useMemo(() => {
     return schema.columns.map((col) => {
@@ -64,24 +60,16 @@ const DataTable = () => {
   }, [data, nameFilter, selectedRoles]);
 
   return (
-    <Box>
-      <TextField
-        label="Filter by Name"
-        variant="outlined"
-        size="small"
-        onChange={(e) => handleNameFilterChange(e.target.value)}
-        sx={{ marginBottom: 2 }}
-      />
 
-      <MaterialReactTable
-        columns={columns}
-        data={filteredData}
-        enableSorting
-        enableRowSelection
-        enablePagination
-        initialState={{ pagination: { pageSize: 5 } }}
-      />
-    </Box>
+    <MaterialReactTable
+      columns={columns}
+      data={filteredData}
+      enableSorting
+      enableRowSelection
+      enablePagination
+      initialState={{ pagination: { pageSize: 5 } }}
+    />
+
   );
 };
 
