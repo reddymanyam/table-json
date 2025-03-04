@@ -1,23 +1,224 @@
 [
-    {
-      "id": 1,
-      "avatar": "https://i.pravatar.cc/40?img=1",
-      "name": "John Doe",
-      "status": "Working",
-      "role": "Product Manager",
-      "email": "johndoe@company.com",
-      "teams": ["Design", "Product", "Development"],
-      "age": 32
-    },
-    {
-      "id": 2,
-      "avatar": "https://i.pravatar.cc/40?img=2",
-      "name": "Jane Smith",
-      "status": "Working",
-      "role": "Software Engineer",
-      "email": "janesmith@company.com",
-      "teams": ["Engineering", "Development"],
-      "age": 28
-    }
-  ]
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "@johndoe",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "johndoe@company.com",
+    "teams": ["Design", "Product", "Development"],
+    "age": 28,
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "username": "@janesmith",
+    "status": "Working",
+    "role": "Developer",
+    "email": "janesmith@company.com",
+    "teams": ["Design", "Development"],
+    "age": 32,
+    "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Robert Johnson",
+    "username": "@rjohnson",
+    "status": "On Leave",
+    "role": "Designer",
+    "email": "rjohnson@company.com",
+    "teams": ["Design"],
+    "age": 26,
+    "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "username": "@emilyd",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "emilyd@company.com",
+    "teams": ["Product", "Development"],
+    "age": 35,
+    "avatar": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Michael Wilson",
+    "username": "@mwilson",
+    "status": "Working",
+    "role": "Developer",
+    "email": "mwilson@company.com",
+    "teams": ["Development"],
+    "age": 29,
+    "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sarah Martinez",
+    "username": "@smartinez",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "smartinez@company.com",
+    "teams": ["Design", "Product", "Development"],
+    "age": 31,
+    "avatar": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "David Anderson",
+    "username": "@danderson",
+    "status": "On Leave",
+    "role": "Designer",
+    "email": "danderson@company.com",
+    "teams": ["Design"],
+    "age": 27,
+    "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jennifer Thomas",
+    "username": "@jthomas",
+    "status": "Working",
+    "role": "Developer",
+    "email": "jthomas@company.com",
+    "teams": ["Development", "Product"],
+    "age": 33,
+    "avatar": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Kevin Brown",
+    "username": "@kbrown",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "kbrown@company.com",
+    "teams": ["Design", "Product"],
+    "age": 30,
+    "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Lisa Garcia",
+    "username": "@lgarcia",
+    "status": "Working",
+    "role": "Designer",
+    "email": "lgarcia@company.com",
+    "teams": ["Design", "Development"],
+    "age": 28,
+    "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ryan Martinez",
+    "username": "@rmartinez",
+    "status": "Working",
+    "role": "Developer",
+    "email": "rmartinez@company.com",
+    "teams": ["Development"],
+    "age": 34,
+    "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Amanda Wilson",
+    "username": "@awilson",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "awilson@company.com",
+    "teams": ["Product", "Development"],
+    "age": 29,
+    "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Joe Doe",
+    "username": "@joedoe",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "joedoe@company.com",
+    "teams": ["Design", "Product", "Development"],
+    "age": 28,
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "John Smith",
+    "username": "@johnsmith",
+    "status": "Working",
+    "role": "Developer",
+    "email": "janesmith@company.com",
+    "teams": ["Design", "Development"],
+    "age": 32,
+    "avatar": "https://randomuser.me/api/portraits/women/14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Rort Johnson",
+    "username": "@rotjohnson",
+    "status": "On Leave",
+    "role": "Designer",
+    "email": "r0tjohnson@company.com",
+    "teams": ["Design"],
+    "age": 26,
+    "avatar": "https://randomuser.me/api/portraits/men/15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Emilys Davis",
+    "username": "@emilyds",
+    "status": "On Leave",
+    "role": "Product manager",
+    "email": "emilysd@company.com",
+    "teams": ["Product", "Development"],
+    "age": 35,
+    "avatar": "https://randomuser.me/api/portraits/women/16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Michl Wilson",
+    "username": "@mwilson",
+    "status": "On Leave",
+    "role": "Developer",
+    "email": "mwilson@company.com",
+    "teams": ["Development"],
+    "age": 29,
+    "avatar": "https://randomuser.me/api/portraits/men/17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Sarah Martin",
+    "username": "@smartin",
+    "status": "Working",
+    "role": "Product manager",
+    "email": "smartin@company.com",
+    "teams": ["Design", "Product", "Development"],
+    "age": 31,
+    "avatar": "https://randomuser.me/api/portraits/women/18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "David Johnson",
+    "username": "@danderson",
+    "status": "On Leave",
+    "role": "Designer",
+    "email": "danderson@company.com",
+    "teams": ["Design"],
+    "age": 27,
+    "avatar": "https://randomuser.me/api/portraits/men/19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Jennifer Thomson",
+    "username": "@jthomas",
+    "status": "Working",
+    "role": "Developer",
+    "email": "jthomas@company.com",
+    "teams": ["Development", "Product"],
+    "age": 33,
+    "avatar": "https://randomuser.me/api/portraits/women/20.jpg"
+  }
+]
+  
   
