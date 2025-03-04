@@ -1,12 +1,34 @@
-# React + Vite
+# Astuto Junior Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a configurable JSON-driven table UI built with React. It was developed as part of the **Astuto Junior Frontend Engineer Assignment**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The table allows filtering, sorting, and multi-select options, and is implemented using **Material React Table v2**.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ JSON-driven table schema and data  
+✅ Debounced filtering by **name**  
+✅ Multi-select filtering by **role**  
+✅ Column sorting by **age**  
+✅ Implemented with **Material React Table v2**  
+✅ Responsive design following **Figma** guidelines  
+
+### Optional Features Implemented:
+- [ ] Pagination  
+- [ ] Row selection  
+- [ ] Displaying a person's image in table rows  
+
+## Tech Stack
+
+- **React.js**  
+- **Material React Table v2**  
+- **Material-UI (MUI)**  
+
+## Setup & Installation
+
+1. Clone the repository:
+   ```sh
+   git clone <repo-url>
+   cd <project-folder>
