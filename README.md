@@ -1,4 +1,4 @@
-# Astuto Junior Frontend Assignment
+# JSON-driven table
 
 ## Overview
 
